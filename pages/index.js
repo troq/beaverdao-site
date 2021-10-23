@@ -6,7 +6,7 @@ export default function Home() {
     <div className="flex h-screen justify-center items-center text-center">
       <Head>
         <title>BeaverDAO</title>
-        <link rel="icon" href="/images/favicon.png" />
+        <link rel="icon" href="/images/beaver.png" />
 
         <meta property="og:title" content="BeaverDAO" key="ogtitle" />
         <meta property="og:description" content="MIT in crypto." key="ogdesc" />
@@ -16,8 +16,9 @@ export default function Home() {
       </Head>
 
       <div>
-        <h1 class="text-5xl mb-6">BeaverDAO</h1>
-        <a href="https://example.com" class="inline-block bg-black text-white border-black border-2 hover:text-black hover:bg-white p-2 px-4">Discord</a>
+        <img src="./images/beaver.png"/>
+        <h1 class="text-4xl font-bold text-primary mb-6">BeaverDAO</h1>
+        <a href="https://discord.gg/zD5YVkQ8x5" class="inline-block text-primary border-primary border-2 hover:text-white hover:bg-primary p-2 px-4">Discord</a>
       </div>
     </div>
     )
